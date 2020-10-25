@@ -1,0 +1,103 @@
+
+
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 900px;
+}
+
+.section-left{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.logo-img{
+    width: 40%;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.circles-img{
+    display: flex;
+    width: 30%;
+    height: 40%;
+}
+
+.section-center{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.artwork-img{
+    width: 40%;
+    height: 60%;
+}
+
+.pink-line-img{
+    width: 2%;
+    height: 25%;
+    margin-right: 12px;
+}
+
+.text-info-gerais{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.art-description{
+    height: 8%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.text-info-museu{
+    display: flex;
+    flex-direction: center;
+    size: 9;
+    justify-content: center;
+    align-self: center;
+}
+
+.text-oche-mobile{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.section-right{
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.circles-img2{
+    width:80%;
+    height: 40%;
+}
+
+.logo-appstore-img{
+    width: 5%; 
+    height: 85%;
+}
+
+.more-description{
+    height: 8%;
+    display: flex;
+    flex-direction: row;
+    align-items: fe;
+
+}
