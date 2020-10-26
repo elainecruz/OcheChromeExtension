@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
+*{font-family: 'Quicksand', sans-serif; font-size: x-large;}
+
 
 
 *{
@@ -37,30 +41,57 @@ body{
     width: 60%;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
 }
 
-.artwork-img{
-    width: 40%;
-    height: 60%;
+.art-work-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.art-work-img{
+    /* width: 40%;
+    height: 70%;
+    margin-top: 50px ; */
 }
 
 .pink-line-img{
+    display: flex;
     width: 2%;
     height: 25%;
     margin-right: 12px;
+    justify-self: center;
 }
 
 .text-info-gerais{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    text-align: center;
 }
 
-.art-description{
-    height: 8%;
+.art-description-item{
+    
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-bottom: 30px;
+}
+
+
+.art-description{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 100%;
+    margin-top: 100px;
+    align-items: center;
+    text-align: center;
+    
 }
 
 .text-info-museu{
@@ -95,9 +126,17 @@ body{
 }
 
 .more-description{
-    height: 8%;
+    height: 10%;
+    width: 100%;
     display: flex;
     flex-direction: row;
-    align-items: fe;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    left: -30px;
 
+}
+
+.text-oche-mobile{
+    font-size: large;
 }
